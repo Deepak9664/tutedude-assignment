@@ -26,8 +26,9 @@ const Navbar = () => {
             <span className="ml-3 text-xl">Tailblocks</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-900">My Assignment</a>
-            <a className="mr-5 hover:text-gray-900">Chat with Mentor</a>
+          <a className="mr-5 hover:text-gray-900" style={{ color: 'rgba(128, 0, 128, 0.25)' }}>My Assignment</a>
+
+            <a className="mr-5 hover:text-gray-900" style={{ color: 'rgba(128, 0, 128, 0.25)' }}>Chat with Mentor</a>
           </nav>
           <div className="relative inline-block text-left ">
             <div>

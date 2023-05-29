@@ -21,9 +21,9 @@ const Pageone = () => {
             </div>
           </div>
           <div className="flex justify-center items-center my-4">
-            <button className="flex border rounded-3xl bg-violet-500 text-white justify-center p-2">
-              Withdraw balance
-            </button>
+          <button className="flex border rounded-3xl bg-purple-800 text-white justify-center p-2">
+  Withdraw balance
+</button>
           </div>
         </div>
         <div className="text-violet-500 mr-60">
@@ -34,7 +34,8 @@ const Pageone = () => {
           </p>
         </div>
       </div>
-      <p className="my-8 mx-40">how does it work ?</p>
+      <p className="my-8 mx-40 text-purple-800 font-semibold text-2xl">How does it work?</p>
+
       <div className="mx-40">
         <div className="flex">
         <div class="p-4 md:w-1/3 flex ">
