@@ -182,11 +182,11 @@ const Pageone = () => {
       </div>
         </div>
       </div>
-      <p className="my-4 mx-40">
-  <span className="text-purple-800 text-opacity-300">Friends who enrolled</span>
+      <p className="my-4 mx-40 font-medium text-base">
+  <span className="text-purple-900 text-opacity-90">Friends who enrolled</span>
 </p>
-<p className="my-4 mx-40">
-  <span className="text-purple-800 text-opacity-300">Terms & Conditions</span>
+<p className="my-4 mx-40 font-medium text-base">
+  <span className="text-purple-900 text-opacity-90">Terms & Conditions</span>
 </p>
       
       

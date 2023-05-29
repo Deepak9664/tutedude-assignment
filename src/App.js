@@ -8,8 +8,8 @@ function App() {
   return (
     <>
     <Navbar/>
-     {/* <Pageone/> */}
-   <Pagetwo/>
+      <Pageone/>  
+    {/* <Pagetwo/>  */}
     </>
   );
 }
