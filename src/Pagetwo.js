@@ -6,7 +6,8 @@ const Pagetwo = () => {
       <p className="my-4 mx-40">UI/UX refer and earn</p>
       <div className="mx-40 flex justify-between">
         <div className="text-violet-500 ">
-          <p className="text-2xl"> Your Refral Code</p>
+        <p className="text-4xl font-poppins font-normal text-purple-900" style={{ fontSize: '20px', lineHeight: '24px' }}>Your Referral Code</p>
+
           <p className="border rounded-md border-violet-500 text-center my-4 p-2 ">
             E D C 5 4
           </p>
@@ -18,9 +19,10 @@ const Pagetwo = () => {
           </p>
         </div>
       </div>
-      <p className="my-4 mx-40">Friends who enrolled(3)</p>
+      <p className="my-4 mx-40 font-poppins font-semibold text-2xl leading-10 text-purple-800">Friends who enrolled(3)</p>
+
       <div className="mx-40 flex">
-        <div className="relative max-w-xs  overflow-hidden shadow-lg bg-white w-80 border rounded-2xl">
+      <div className="relative max-w-xs overflow-hidden shadow-lg bg-gradient-to-r from-purple-800 to-orange-400 w-80 border rounded-2xl">
           <div
             className="bg-cover bg-center h-40"
             style={{ backgroundImage: 'url("/path/to/image.jpg")' }}
@@ -66,7 +68,7 @@ const Pagetwo = () => {
             
           </div>
         </div>
-        <div className="relative max-w-xs overflow-hidden shadow-lg bg-white w-80 border rounded-2xl mx-8">
+        <div className="relative max-w-xs overflow-hidden shadow-lg bg-gradient-to-r from-purple-800 to-orange-400 w-80 border rounded-2xl">
           <div
             className="bg-cover bg-center h-40"
             style={{ backgroundImage: 'url("/path/to/image.jpg")' }}
@@ -112,7 +114,7 @@ const Pagetwo = () => {
             
           </div>
         </div>
-        <div className="relative max-w-xs  overflow-hidden shadow-lg bg-white w-80 border rounded-2xl">
+        <div className="relative max-w-xs overflow-hidden shadow-lg bg-gradient-to-r from-purple-800 to-orange-400 w-80 border rounded-2xl">
           <div
             className="bg-cover bg-center h-40"
             style={{ backgroundImage: 'url("/path/to/image.jpg")' }}
@@ -159,7 +161,9 @@ const Pagetwo = () => {
           </div>
         </div>
       </div>
-      <p className=" mx-40 my-8">Terms And Conditions</p>
+      <p className="my-4 mx-40">
+  <span className="text-purple-800 text-opacity-300">Terms & Conditions</span>
+</p>
     </>
   );
 };
