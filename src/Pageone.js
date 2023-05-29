@@ -8,15 +8,15 @@ const Pageone = () => {
         <div className="border rounded-lg justify-center">
           <div className="flex">
             <div className="mx-2 mt-4">
-              <p className="text-violet-500">referaal earning</p>
+            <p className="text-purple-800">Referral Earning</p>
               <p className="font-bold text-2xl"> $2500</p>
             </div>
             <div className="mx-6 mt-4">
-              <p className="text-violet-500">referaal earning</p>
-              <p className="font-bold text-2xl"> $2500</p>
+            <p className="text-purple-800">Wallet Balance</p>
+              <p className="font-bold text-2xl"> 7</p>
             </div>
             <div className="mx-2 mt-4">
-              <p className="text-violet-500">referaal earning</p>
+            <p className="text-purple-800">Total Earning</p>
               <p className="font-bold text-2xl"> $2500</p>
             </div>
           </div>
@@ -27,7 +27,8 @@ const Pageone = () => {
           </div>
         </div>
         <div className="text-violet-500 mr-60">
-          <p className="text-2xl"> Your Refral Code</p>
+          {/* <p className="text-2xl"> Your Refral Code</p> */}
+          <p className="text-2xl" style={{ color: '#800080' }}>Your Referral Code</p>
           <p className="border rounded-md border-violet-500 text-center my-4 p-2 ">
             E D C 5 4
           </p>
@@ -102,8 +103,8 @@ const Pageone = () => {
 </svg>
         </div>
         <div class="flex-grow pl-6">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar tropub indxgo </p>
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">You get as a referral monet</h2>
+          <p class="leading-relaxed text-base">on total purchase the friend makers into your wallet </p>
          
         </div>
       </div>
@@ -125,8 +126,8 @@ const Pageone = () => {
 </svg>
         </div>
         <div class="flex-grow pl-6">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast indxgo </p>
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Your friend gets 200 Off</h2>
+          <p class="leading-relaxed text-base">On this overall fee on succesful purchase using your referral code </p>
           
         </div>
       </div>
@@ -150,8 +151,8 @@ const Pageone = () => {
 </svg>
         </div>
         <div class="flex-grow pl-6">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast veganindxgo </p>
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Transfer money from wallet</h2>
+          <p class="leading-relaxed text-base">when the wallet balance reaches 200 0r more you can withdraw it </p>
           
         </div>
       </div>
@@ -180,7 +181,13 @@ const Pageone = () => {
       </div>
         </div>
       </div>
-      <p className="my-4 mx-40"> Friends who enrolled</p>
+      <p className="my-4 mx-40">
+  <span className="text-purple-800 text-opacity-300">Friends who enrolled</span>
+</p>
+<p className="my-4 mx-40">
+  <span className="text-purple-800 text-opacity-300">Terms & Conditions</span>
+</p>
+      
       
     </>
   );
