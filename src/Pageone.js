@@ -3,10 +3,10 @@ import React from "react";
 const Pageone = () => {
   return (
     <>
-      <p className="my-4 mx-40">UI/UX refer and earn</p>
-      <div className=" flex mx-40 mt-8 justify-between">
+      <p className="my-4 md:mx-40">UI/UX refer and earn</p>
+      <div className=" md:flex md:mx-40 mt-8 justify-between">
         <div className="border rounded-lg justify-center">
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div className="mx-2 mt-4">
             <p className="text-purple-800">Referral Earning</p>
               <p className="font-bold text-2xl"> $2500</p>
@@ -20,13 +20,13 @@ const Pageone = () => {
               <p className="font-bold text-2xl"> $2500</p>
             </div>
           </div>
-          <div className="flex justify-center items-center my-4">
+          <div className=" md:basis-6/12 flex flex-wrap justify-center items-center my-4">
           <button className="flex border rounded-3xl bg-purple-800 text-white justify-center p-2">
   Withdraw balance
 </button>
           </div>
         </div>
-        <div className="text-violet-500 mr-60">
+        <div className="text-violet-500 p-0 py-5 md:px-6 md:basis-6/12 ">
           {/* <p className="text-2xl"> Your Refral Code</p> */}
           <p className="text-2xl" style={{ color: '#800080' }}>Your Referral Code</p>
           <p className="border rounded-md border-violet-500 text-center my-4 p-2 ">
@@ -34,11 +34,11 @@ const Pageone = () => {
           </p>
         </div>
       </div>
-      <p className="my-8 mx-40 text-purple-800 font-semibold text-2xl">How does it work?</p>
+      <p className="my-8 md:mx-40 text-purple-800 font-semibold text-2xl">How does it work?</p>
 
-      <div className="mx-40">
-        <div className="flex">
-        <div class="p-4 md:w-1/3 flex ">
+      <div className="md:mx-40">
+        <div className="flex flex-wrap">
+        <div class="p-4 md:basis-6/12 flex ">
         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
           {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <circle cx="6" cy="6" r="3"></circle>
@@ -61,7 +61,7 @@ const Pageone = () => {
          
         </div>
       </div>
-      <div class="p-4 md:w-1/3 flex ">
+      <div class="p-4 md:basis-6/12 flex ">
         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
           {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <circle cx="6" cy="6" r="3"></circle>
@@ -85,8 +85,8 @@ const Pageone = () => {
         </div>
       </div>
         </div>
-        <div className="flex">
-        <div class="p-4 md:w-1/3 flex ">
+        <div className="flex flex-wrap">
+        <div class="p-4 md:basis-6/12 flex ">
         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
           {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <circle cx="6" cy="6" r="3"></circle>
@@ -109,7 +109,7 @@ const Pageone = () => {
          
         </div>
       </div>
-      <div class="p-4 md:w-1/3 flex ">
+      <div class="p-4 md:basis-6/12 flex ">
         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
           {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <circle cx="6" cy="6" r="3"></circle>
@@ -133,8 +133,8 @@ const Pageone = () => {
         </div>
       </div>
         </div>
-        <div className="flex">
-        <div class="p-4 md:w-1/3 flex ">
+        <div className="flex flex-wrap">
+        <div class="p-4 md:basis-6/12 flex ">
         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
           {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <circle cx="6" cy="6" r="3"></circle>
@@ -157,7 +157,7 @@ const Pageone = () => {
           
         </div>
       </div>
-      <div class="p-4 md:w-1/3 flex ">
+      <div class="p-4 md:basis-6/12 flex ">
         <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
           {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <circle cx="6" cy="6" r="3"></circle>

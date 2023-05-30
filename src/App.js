@@ -9,7 +9,7 @@ function App() {
     <>
     <Navbar/>
       <Pageone/>  
-    {/* <Pagetwo/>  */}
+   {/* <Pagetwo/>   */}
     </>
   );
 }
